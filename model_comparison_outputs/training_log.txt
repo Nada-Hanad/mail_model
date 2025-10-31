@@ -1,0 +1,38 @@
+===== Model Comparison Log =====
+
+--- LinearRegression ---
+Train MAE: 8.8812
+Train R²: 0.4332
+Test MAE: 8.7338
+Test R²: 0.4133
+CV R² scores: [-14.581925  -0.072312  -0.840264   0.309718   0.322489]
+Mean CV R²: -2.9725
+Training time: 0.01 seconds
+
+--- Ridge ---
+Train MAE: 8.8921
+Train R²: 0.4328
+Test MAE: 8.7281
+Test R²: 0.4178
+CV R² scores: [-14.401892  -0.067034  -0.864256   0.317643   0.319754]
+Mean CV R²: -2.9392
+Training time: 0.01 seconds
+
+--- RandomForest ---
+Train MAE: 3.8824
+Train R²: 0.8860
+Test MAE: 4.3512
+Test R²: 0.8362
+CV R² scores: [0.596528 0.649491 0.736326 0.789017 0.688785]
+Mean CV R²: 0.6920
+Training time: 0.63 seconds
+
+--- XGBoost ---
+Train MAE: 1.9215
+Train R²: 0.9695
+Test MAE: 2.4558
+Test R²: 0.9384
+CV R² scores: [0.696814 0.854994 0.82606  0.884355 0.825064]
+Mean CV R²: 0.8175
+Training time: 0.46 seconds
+
